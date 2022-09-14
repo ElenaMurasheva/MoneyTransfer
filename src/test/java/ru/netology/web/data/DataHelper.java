@@ -35,9 +35,6 @@ public class DataHelper {
         return Math.abs(balance) + new Random().nextInt(1000);
     }
 
-    //public static AuthInfo getOtherAuthInfo(AuthInfo original) {
-    // return new AuthInfo("petya", "123qwerty");
-    //}
 
     @Value
     public static class VerificationCode {
